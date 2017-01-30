@@ -8,7 +8,7 @@
       
     <a-sky color="#000000"></a-sky>
     
-    
+
     <!--SUN-->
     <a-sphere position="0 -8 -2" radius="6" color="#f4bf42">
         <a-animation
@@ -16,7 +16,7 @@
                 from="yellow"
                 to="orange"
                 dur="1000"
-                begin="1000"
+                begin="2000"
                 repeat="indefinite"
                 direction="alternate">
           </a-animation>
@@ -25,9 +25,23 @@
     
     <!--MERCURY-->
     <a-sphere position="0 -8 -17" radius=".5" color="#5b5a5a"></a-sphere>
+    
+    <a-entity position="0 -8 0" rotation="0 0 0" scale="10 10 10">
+
+        <a-entity position="0 -8 -17" rotation="0 0 0">
+          <a-animation position="0 -8 -17" attribute="rotation" to="0 360 0" dur="20000" easing="linear" repeat="indefinite"></a-animation>
+
+        
+            <a-sphere position="0 -8 -17" radius="3" color="#5b5a5a"></a-sphere>
+           
+
+            
+          </a-entity>
+        </a-entity>
+      </a-entity>
+    
     <!--VENUS-->
     <a-sphere position="0 -8 -23" radius=".75" color="#ebdb78"></a-sphere>
-    </a-sphere>
      <!--EARTH-->
      <a-sphere position="0 -8 -32" radius=".90" color="#90d7f1"></a-sphere>
      <a-sphere position="0 -8 -32.15" radius=".90" color="#00ba0c"></a-sphere>
