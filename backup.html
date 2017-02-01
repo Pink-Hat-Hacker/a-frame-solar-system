@@ -30,7 +30,7 @@
     <a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="15" radius-outer="15.1" rotation="-90 0 0"></a-ring>
         <a-sphere src="http://www.solarsystemscope.com/textures/mercury.jpg" position="0 0.2 -15" radius=".5" color="#5b5a5a" from="0 0 -15"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="17657.83" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="5000" repeat="indefinite"></a-animation>
     </a-entity>
     
     <!--VENUS-->
@@ -39,17 +39,11 @@
     <a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="21" radius-outer="21.1" rotation="-90 0 0"></a-ring>
         <a-sphere src="http://maps.jpl.nasa.gov/pix/ven0ajj2.jpg" position="0 0 -21" radius=".75" color="#ebdb78" from="0 0 -21"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="13056.83" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="6000" repeat="indefinite"></a-animation>
     </a-entity>
      <!--EARTH-->
-     
-     
-     <a-entity position="0 -8 -2">
-        <a-ring color="#ffffff" radius-inner="30" radius-outer="30.1" rotation="-90 0 0"></a-ring>
-        <a-sphere position="0 0 -30" from="0 0 -30" radius=".90" color="#90d7f1"></a-sphere>
-        <a-sphere position="0 0 -30.15" radius=".90" color="#00ba0c"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="11100" repeat="indefinite"></a-animation>
-    </a-entity>
+     <a-sphere position="0 -8 -32" radius=".90" color="#90d7f1"></a-sphere>
+     <a-sphere position="0 -8 -32.15" radius=".90" color="#00ba0c"></a-sphere>
      <!--Moon-->
      <a-sphere position="1.15 -7.1 -32.45" radius=".15" color="gray"></a-sphere>
      
@@ -60,7 +54,7 @@
      <a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="36" radius-outer="36.1" rotation="-90 0 0"></a-ring>
         <a-sphere position="0 0 -36" from="0 0 -36" radius=".75" color="#f94f20"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="7000.5" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="6000" repeat="indefinite"></a-animation>
     </a-entity>
      
      <!--ASTEROID RING-->
@@ -126,37 +120,39 @@
      <a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="62" radius-outer="62.1" rotation="-90 0 0"></a-ring>
         <a-sphere position="0 0 -62" from="0 0 -62" radius="3" color="#f48c42"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="35472" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="6000" repeat="indefinite"></a-animation>
     </a-entity>
      
      <!--Saturn-->
-     
-     <a-entity position="0 -8 -2">
-        <a-ring color="#ffffff" radius-inner="78" radius-outer="78.1" rotation="-90 0 0"></a-ring>
-        <a-entity position="0 0 -78" from="0 0 -78">
-            <a-sphere radius="1.30" color="#fff291"></a-sphere>
-            <a-ring color="#81b555" radius-inner="2.4" radius-outer="2.5" rotation="-75 5 0"></a-ring>
-            <a-ring color="#ffcc00" radius-inner="3" radius-outer="3.1" rotation="-75 5 0"></a-ring>
-            <a-ring color="#ffffff" radius-inner="3.90" radius-outer="4" position="0 -8 -80" rotation="-75 5 0"></a-ring>
-        </a-entity>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="43274" repeat="indefinite"></a-animation>
-    </a-entity>
-     
+     <a-sphere position="0 -8 -80" radius="1.30" color="#fff291"></a-sphere>
+     <a-ring color="#81b555" radius-inner="2.4" radius-outer="2.5" position="0 -8 -80" rotation="-75 5 0"></a-ring>
+     <a-ring color="#ffcc00" radius-inner="3" radius-outer="3.1" position="0 -8 -80" rotation="-75 5 0"></a-ring>
+     <a-ring color="#ffffff" radius-inner="3.90" radius-outer="4" position="0 -8 -80" rotation="-75 5 0"></a-ring>
      <!--Uranus-->
      
      <a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="90" radius-outer="90.1" rotation="-90 0 0"></a-ring>
         <a-sphere position="0 0 -90" from="0 0 -90" radius="1.90" color="#91fdff"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="30580" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="6000" repeat="indefinite"></a-animation>
     </a-entity>
      
      <!--Neptune-->
-  
+   	 <a-sphere position="0 -8 -102" radius="1.73" color="#3d36c9"></a-sphere>
+   	
    	<a-entity position="0 -8 -2">
         <a-ring color="#ffffff" radius-inner="100" radius-outer="100.1" rotation="-90 0 0"></a-ring>
         <a-sphere position="0 0 -100" from="0 0 -100" radius="1.73" color="#3d36c9"></a-sphere>
-        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="24506" repeat="indefinite"></a-animation>
+        <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="6000" repeat="indefinite"></a-animation>
     </a-entity>
      
      
+     
+    <a-ring color="#ffffff" radius-inner="15" radius-outer="15.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>    
+    <a-ring color="#ffffff" radius-inner="21" radius-outer="21.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="30" radius-outer="30.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="36" radius-outer="36.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="62" radius-outer="62.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="78" radius-outer="78.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="90" radius-outer="90.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
+    <a-ring color="#ffffff" radius-inner="100" radius-outer="100.1" position="0 -8 -2" rotation="-90 0 0"></a-ring>
 </html>
